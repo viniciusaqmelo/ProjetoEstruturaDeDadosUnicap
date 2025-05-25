@@ -14,9 +14,9 @@ Usuario* consultarUsuario(UsuarioHash* tabela, int id);
 void carregarUsuarios(UsuarioHash* tabela, const char* nomeArquivo);
 void salvarUsuarios(UsuarioHash* tabela, const char* nomeArquivo);
 void liberarUsuarios(UsuarioHash* tabela);
-// ...existing code...
+
 UsuarioHash* criarTabelaUsuarios();
-// ...existing code...
+
 
 #endif
 
