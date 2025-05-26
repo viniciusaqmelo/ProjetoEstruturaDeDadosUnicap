@@ -58,3 +58,8 @@ Desenvolver um sistema que permita o cadastro, consulta e gerenciamento de livro
 - Relatórios: livros mais emprestados, usuários mais ativos etc.
 - Histórico completo de empréstimos
 - Interface com menu no terminal ou GUI simples
+
+
+Para compilar o código, digitar os seguintes comandos: gcc src/main.c src/livro.c src/usuario.c src/emprestimo.c src/tabelahash.c -o programa
+
+Para rodar: ./programa
